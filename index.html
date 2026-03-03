@@ -61,15 +61,27 @@
             <h2>Neem contact met ons op</h2>
             <div>
                 <form action="#" method="post">
-                    <label for="home-naam">Naam</label>
-                    <input type="text" id="home-naam" name="naam" required><br>
-                    <label for="home-telefoonnummer">Telefoonnummer</label>
-                    <input type="tel" id="home-telefoonnummer" name="telefoonnummer" required><br>
-                    <label for="home-emailadres">E-mailadres</label>
-                    <input type="email" id="home-emailadres" name="emailadres" required><br>
-                    <label for="home-bericht">Bericht</label>
-                    <textarea id="home-bericht" name="bericht" rows="6" cols="50" required></textarea>
-                    <input type="submit" value="Verzenden">
+                    <div class="form-group">
+                        <label for="home-naam">Naam</label>                        
+                        <input type="text" id="home-naam" name="naam" required><br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="home-telefoonnummer">Telefoonnummer</label>
+                        <input type="tel" id="home-telefoonnummer" name="telefoonnummer" required><br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="home-emailadres">E-mailadres</label>
+                        <input type="email" id="home-emailadres" name="emailadres" required><br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="home-bericht">Bericht</label>
+                        <textarea id="home-bericht" name="bericht" rows="6" cols="50" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Verzenden</button>
                 </form>
             </div>
         </section>
