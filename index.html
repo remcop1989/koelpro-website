@@ -12,34 +12,39 @@
 
 <body>
     <header class="site-header">
-        <a class="header-logo" href="index.html">
-            <img src="/images/nav-logo.png" alt="Koelpro logo">
-        </a>
-        <nav class="nav-main">
-            <a class="nav-item" href="index.html">Home</a>
-            <a class="nav-item" href="over-ons.html">Over ons</a>
-            <a class="nav-item" href="diensten.html">Diensten</a>
-            <a class="nav-item" href="faq.html">FAQ</a>
-            <a class="nav-item" href="contact.html">Contact</a>
-        </nav>
-        <div class="header-contact">
-            <a class="header-contact-phone" href="tel:+31627597314">+31 6 27597314</a>
-            <a class="header-contact-email" href="mailto:info@koelpro.nl">info@koelpro.nl</a>
+        <div class="container header">
+            <a class="header-logo" href="index.html">
+                <img src="/images/nav-logo.png" alt="Koelpro logo">
+            </a>
+            <nav class="nav-main">
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="over-ons.html">Over ons</a>
+                <a class="nav-item" href="diensten.html">Diensten</a>
+                <a class="nav-item" href="faq.html">FAQ</a>
+                <a class="nav-item" href="contact.html">Contact</a>
+            </nav>
+            <div class="header-contact">
+                <a class="header-contact-phone" href="tel:+31627597314">+31 6 27597314</a>
+                <a class="header-contact-email" href="mailto:info@koelpro.nl">info@koelpro.nl</a>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="hero">
-            <h1 class="hero-title">Airconditioning en klimaattechniek in Zeeland</h1>
-                <img class="hero-image" src="/images/hero-slide-1.jpg" alt="Binnenunit airconditioning gemonteerd aan muur">
-                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nisi vel ipsum pretium, 
-                nec vulputate nunc vulputate. Sed maximus erat lacinia posuere feugiat. Nunc suscipit metus quis 
-                nibh vulputate lacinia.</p>
-            <a class="hero-cta" href="#contact">Neem contact met ons op</a>
+            <div class="container hero">
+                <h1 class="hero-title">Airconditioning en klimaattechniek in Zeeland</h1>
+                    <img class="hero-image" src="/images/hero-slide-1.jpg" alt="Binnenunit airconditioning gemonteerd aan muur">
+                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida nisi vel ipsum pretium, 
+                    nec vulputate nunc vulputate. Sed maximus erat lacinia posuere feugiat. Nunc suscipit metus quis 
+                    nibh vulputate lacinia.</p>
+                <a class="hero-cta" href="#contact">Neem contact met ons op</a>
+            </div>
         </section>
         
         <section class="values">
-            <h2 class="section-title">Dit kunt u van ons verwachten</h2>
+            <div class="container">
+                <h2 class="section-title">Dit kunt u van ons verwachten</h2>
                 <div class="values-card">
                     <img src="/images/icon-klantgericht.jpg" alt="Icoon van een hand die een poppetje draagt">
                     <h3>Klantgericht</h3>
@@ -52,10 +57,12 @@
                     <img src="/images/icon-persoonlijk.jpg" alt="Icoon van 2 mensen die praten">
                     <h3>Persoonlijk</h3>
                 </div>
+            </div>
         </section>
 
         <section class="werkwijze">
-            <h2 class="section-title">Zo werken wij</h2>
+            <div class="container">
+                <h2 class="section-title">Zo werken wij</h2>
                 <div class="werkwijze-card">
                     <img src="/images/icon-eerste-afspraak.jpg" alt="Icoon van een kalender">
                     <h3>Afspraak op locatie</h3>
@@ -76,10 +83,12 @@
                     <h3>Service en onderhoud</h3>
                     <p>Hier komt uitleg</p>
                 </div>
+            </div>
         </section>
 
         <section class="reviews">
-            <h2 class="section-title">Dit vinden onze klanten van ons</h2>
+            <div class="container">
+                <h2 class="section-title">Dit vinden onze klanten van ons</h2>
                 <div class="reviews-card">
                     <h3>Geweldig bedrijf</h3>
                     <p>Hier komen reviews</p>
@@ -92,10 +101,12 @@
                     <h3>Een verademing</h3>
                     <p>Hier komen reviews</p>
                 </div>
+            </div>
         </section>
 
         <section id="contact" class="contact-form">
-            <h2 class="section-title">Neem contact met ons op</h2>
+            <div class="container">
+                <h2 class="section-title">Neem contact met ons op</h2>
                 <form action="#" method="post">
                     <div class="form-home">
                         <label for="home-naam">Naam</label>                        
@@ -119,18 +130,21 @@
 
                     <button type="submit" class="btn-submit">Verzenden</button>
                 </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <address class="footer-address">
-            Koelpro klimaattechniek<br>
-            Van Ossstraat 16<br>
-            4561MJ Hulst<br>
-            Nederland<br>
-        </address>
-        
-        <p class="footer-copyright">Copyright Remco Peters 2026</p>
+        <div class="container footer">
+            <address class="footer-address">
+                Koelpro klimaattechniek<br>
+                Van Ossstraat 16<br>
+                4561MJ Hulst<br>
+                Nederland<br>
+            </address>
+            
+            <p class="footer-copyright">Copyright Remco Peters 2026</p>
+        </div>
     </footer>
 
 <script src="main.js"></script>
