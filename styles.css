@@ -27,6 +27,10 @@ body {
     color: var(--color-text-base);
 }
 
+h1, h2, h3, h4, p {
+    margin: 0px;
+}
+
 .header-logo img {
     max-width: 150px;
 }
@@ -62,6 +66,7 @@ body {
 
 .hero-image {
     width: 100%;
+    display: block;
 }
 
 .values {
