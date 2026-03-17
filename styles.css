@@ -34,22 +34,22 @@ h1, h2, h3, h4, p {
 }
 
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
-.header-logo img {
+.header__logo img {
     max-width: 150px;
 }
 
-.header-contact {
+.header__contact {
     display: block;
 }
 
-.nav-item, .header-contact-phone, .header-contact-email {
+.header__navitem, .header__contactphone, .header__contactemail {
     display: block;
     text-decoration: none;
     color: var(--color-text-base);
     padding: 5px;
 }
 
-.site-header {
+.header {
     background-color: var(--color-primary);
     padding: 15px;
 }
@@ -59,7 +59,7 @@ footer {
     padding: 15px;
 }
 
-.footer-address {
+.footer__address {
     padding-bottom: 15px;
 }
 
