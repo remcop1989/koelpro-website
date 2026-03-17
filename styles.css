@@ -1,0 +1,153 @@
+:root {
+    /* colors */
+    --color-primary: #0E6298;
+    --color-cta: #D41918;
+
+    --color-text-base: #000;
+    --color-text-light: #fff;
+
+    --color-background: #fff;
+
+    /* typography */
+    --font-size-base: 15px;
+
+    --lineheight-base: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-base);
+    line-height: var(--lineheight-base);
+    margin: 0px;
+    background-color: var(--color-background);
+    color: var(--color-text-base);
+}
+
+h1, h2, h3, h4, p {
+    margin: 0px;
+}
+
+.header-logo img {
+    max-width: 150px;
+}
+
+.header-contact {
+    display: block;
+}
+
+.nav-item, .header-contact-phone, .header-contact-email {
+    display: block;
+    text-decoration: none;
+    color: var(--color-text-base);
+    padding: 5px;
+}
+
+section, footer, .site-header {
+    padding: 15px;
+}
+
+.site-header {
+    background-color: var(--color-primary)
+}
+
+.herocontainer {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 0px;
+    padding: 15px;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+}
+
+.about-home {
+    background-color: var(--color-primary);
+}
+
+.values {
+    background-color: var(--color-background);
+}
+
+.values-img {
+    width: 125px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.values-card {
+    box-shadow:
+        0 2px 6px rgba(0,0,0,0.1),
+        0 8px 20px rgba(0,0,0,0.08);
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: var(--color-background);
+    overflow: hidden;
+}
+
+.projects {
+    background-color: var(--color-primary);
+}
+
+.project-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.werkwijze {
+    background-color: var(--color-background);
+}
+
+.werkwijze-img {
+    width: 70px;
+    height: 70px;
+}
+
+.werkwijze-card {
+    box-shadow:
+        0 2px 6px rgba(0,0,0,0.1),
+        0 8px 20px rgba(0,0,0,0.08);
+    width: 275px;
+    height: 275px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.reviews {
+    background-color: var(--color-primary);
+}
+
+footer {
+    background-color: var(--color-primary);
+}
+
+.footer-address {
+    padding-bottom: 15px;
+}
+
+.h2-title, .category-title {
+    padding-top: 15px;
+}
+
+.category-title {
+    border-radius: 3px;
+    border-top-style: solid;
+    margin-top: 15px;
+}
+
+.contact-form-container {
+    padding-top: 15px;
+}
