@@ -168,11 +168,11 @@ footer {
 }
 
 /* ------------------------------------FAQ.HTML------------------------------------ */
-.faq h3 {
+.faq__question {
     padding-top: 15px;
 }
 
-.category-title {
+.faq__category {
     border-radius: 3px;
     border-top-style: solid;
     margin-top: 15px;
