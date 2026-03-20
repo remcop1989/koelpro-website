@@ -33,6 +33,14 @@ h1, h2, h3, h4, p {
     margin: 0px;
 }
 
+.section {
+    padding: 15px;
+}
+
+.section__title {
+    padding-top: 15px;
+}
+
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
 .header__logoimg {
     max-width: 150px;
@@ -49,12 +57,7 @@ h1, h2, h3, h4, p {
     padding: 5px;
 }
 
-.header {
-    background-color: var(--color-primary);
-    padding: 15px;
-}
-
-footer {
+footer, header {
     background-color: var(--color-primary);
     padding: 15px;
 }
@@ -71,7 +74,6 @@ footer {
 .hero__text {
     position: absolute;
     top: 0px;
-    padding: 15px;
 }
 
 .hero__image {
@@ -81,12 +83,10 @@ footer {
 
 .abouthome {
     background-color: var(--color-primary);
-    padding: 15px;
 }
 
 .values {
     background-color: var(--color-background);
-    padding: 15px;
 }
 
 .values__img {
@@ -110,7 +110,6 @@ footer {
 
 .projects {
     background-color: var(--color-primary);
-    padding: 15px;
 }
 
 .projects__img {
@@ -121,7 +120,6 @@ footer {
 
 .werkwijze {
     background-color: var(--color-background);
-    padding: 15px;
 }
 
 .werkwijze__img {
@@ -142,35 +140,9 @@ footer {
 
 .reviews {
     background-color: var(--color-primary);
-    padding: 15px;
-}
-
-.contactform__home {
-    padding: 15px;
-}
-
-/* ------------------------------------OVER-ONS.HTML------------------------------------ */
-.aboutus__title {
-    padding-top: 15px;
-}
-
-.aboutus {
-    padding: 15px;
-}
-
-/* ------------------------------------DIENSTEN.HTML------------------------------------ */
-.diensten__subtitle {
-    padding-top: 15px;
-}
-
-.diensten {
-    padding: 15px;
 }
 
 /* ------------------------------------FAQ.HTML------------------------------------ */
-.faq__question {
-    padding-top: 15px;
-}
 
 .faq__category {
     border-radius: 3px;
@@ -178,15 +150,8 @@ footer {
     margin-top: 15px;
 }
 
-.faq {
-    padding: 15px;
-}
-
 /* ------------------------------------CONTACT.HTML------------------------------------ */
+
 .contact__form {
     padding-top: 15px;
-}
-
-.contact {
-    padding: 15px;
 }
