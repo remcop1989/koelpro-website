@@ -51,7 +51,6 @@ h1, h2, h3, h4, p {
 }
 
 .pageheader__navitem, .pageheader__contactphone, .pageheader__contactemail {
-    display: block;
     text-decoration: none;
     color: var(--color-text-base);
     padding: 5px;
@@ -82,7 +81,7 @@ h1, h2, h3, h4, p {
     display: block;
 }
 
-.home-about {
+.home__about {
     background-color: var(--color-primary);
 }
 
