@@ -124,8 +124,9 @@ h1, h2, h3, h4, p {
 }
 
 .werkwijze__img {
-    width: 70px;
-    height: 70px;
+    width: 100%;
+    height: 92%;
+    object-fit: cover;
 }
 
 .werkwijze__card {
@@ -138,6 +139,10 @@ h1, h2, h3, h4, p {
     padding-right: 15px;
     margin-top: 10px;
     border-radius: 15px;
+}
+
+.werkwijze__card h3 {
+    padding-top: 10px;
 }
 
 .reviews {
