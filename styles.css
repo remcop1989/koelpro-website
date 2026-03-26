@@ -42,7 +42,7 @@ h1, h2, h3, h4, p {
 }
 
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
-.pageheader__logo {
+.pageheader__logo img {
     max-width: 150px;
 }
 
