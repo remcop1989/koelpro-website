@@ -116,7 +116,7 @@ h1, h2, h3, h4, p {
 .projects__img {
     width: 300px;
     height: auto;
-    border-radius: 10%;
+    border-radius: 15px;
 }
 
 .werkwijze {
@@ -134,7 +134,7 @@ h1, h2, h3, h4, p {
         0 8px 20px rgba(0,0,0,0.08);
     width: 275px;
     height: 275px;
-    border-radius: 30px;
+    border-radius: 15px;
     padding: 20px;
     margin: 10px;
 }
