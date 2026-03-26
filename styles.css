@@ -42,15 +42,15 @@ h1, h2, h3, h4, p {
 }
 
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
-.header__logoimg {
+.pageheader__logoimg {
     max-width: 150px;
 }
 
-.header__contact {
+.pageheader__contact {
     display: block;
 }
 
-.header__navitem, .header__contactphone, .header__contactemail {
+.pageheader__navitem, .pageheader__contactphone, .pageheader__contactemail {
     display: block;
     text-decoration: none;
     color: var(--color-text-base);
@@ -62,7 +62,7 @@ h1, h2, h3, h4, p {
     padding: 15px;
 }
 
-.footer__address {
+.pagefooter__address {
     padding-bottom: 15px;
 }
 
