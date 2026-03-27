@@ -20,6 +20,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%; /* essentieel voor sticky footer */
+    margin: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--font-size-base);
@@ -27,6 +32,9 @@ body {
     margin: 0px;
     background-color: var(--color-background);
     color: var(--color-text-base);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4, p {
@@ -52,28 +60,58 @@ h1, h2, h3, h4, p {
     margin-top: 10px;
 }
 
+main {
+    flex: 1;
+}
+
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
 .pageheader__logo img {
     max-width: 150px;
 }
 
-.pageheader__contact {
-    display: block;
-}
-
 .pageheader__navitem, .pageheader__contactphone, .pageheader__contactemail {
     text-decoration: none;
-    color: var(--color-text-base);
+    color: var(--color-text-dark);
     padding: 5px;
 }
 
-.pagefooter, .pageheader {
+.pagefooter {
     background-color: var(--color-primary);
-    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagefooter__spacer {
+    flex: 1;
 }
 
 .pagefooter__address {
     padding-bottom: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+/* TODO: mobile-first header aanpassen
+   - Is nu desktop-first (week 3 dag 4)
+   - Nav stacked op mobiel
+   - Contact onder nav
+   - Flex-row alleen op desktop via media query
+*/
+
+.pageheader {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.pageheader__contact {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
 }
 
 /* ------------------------------------INDEX.HTML------------------------------------ */
