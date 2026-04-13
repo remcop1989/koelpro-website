@@ -131,11 +131,21 @@ main {
 
 .hero__image {
     width: 100%;
+    height: auto;
     display: block;
 }
 
 .introductie {
     background-color: var(--color-primary);
+}
+
+.introductie__voorstellen p {
+    padding-left: 10px;
+}
+
+.introductie__voorstellen {
+    display: flex;
+    flex-direction: row;
 }
 
 .values {
