@@ -120,11 +120,17 @@ main {
 
 /* ------------------------------------INDEX.HTML------------------------------------ */
 
+.hero {
+    position: relative;
+}
+
 .hero__text {
     top: 0px;
     padding: 15px;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    inset: 0;
 }
 
 .hero__text a {
@@ -143,8 +149,8 @@ main {
     border-radius: 5px;
     padding: 5px;   
     cursor: pointer;
-    margin: 5px 0px 5px 0px;
     width: fit-content;
+    margin-top: auto;
 }
 
 .introductie {
