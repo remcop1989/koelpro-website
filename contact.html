@@ -31,27 +31,27 @@
     </header>
 
     <main>
-            <section class="contactform section-padding">
+            <section id="contact" class="contactform section-padding">
                 <h1>Neem contact met ons op</h1>
-                <p>Wij staan voor u klaar om al uw vragen te beantwoorden en problemen op te lossen. U kunt ons benaderen via Whatsapp, telefonisch of per e-mail.</p>
-                <div class="contact__form">
+                <p class="contact__text">Wij staan voor u klaar om al uw vragen te beantwoorden en problemen op te lossen. U kunt ons benaderen via Whatsapp, telefonisch of per e-mail.</p>
+                <div>
                     <form action="#" method="post">
-                        <div>
+                        <div class="contact__naam">
                             <label for="contactnaam">Naam</label>                        
                             <input type="text" id="contactnaam" name="naam" required>
                         </div>
 
-                        <div>
+                        <div class="contact_telefoonnummer">
                             <label for="contacttelefoonnummer">Telefoonnummer</label>
                             <input type="tel" id="contacttelefoonnummer" name="telefoonnummer" required>
                         </div>
 
-                        <div>
+                        <div class="contact__email">
                             <label for="contactemailadres">E-mailadres</label>
                             <input type="email" id="contactemailadres" name="emailadres" required>
                         </div>
 
-                        <div>
+                        <div class="contact__bericht">
                             <label for="contactbericht">Bericht</label>
                             <textarea id="contactbericht" name="bericht" rows="6" required></textarea>
                         </div>
