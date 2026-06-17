@@ -210,6 +210,15 @@ main {
     background-color: var(--color-primary);
 }
 
+.reviews div {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__card {
+    width: 75%;
+}
+
 /* ------------------------------------FAQ.HTML------------------------------------ */
 
 .faq__category {
