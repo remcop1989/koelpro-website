@@ -65,8 +65,31 @@ main {
 }
 
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
+.pageheader {
+    background-color: var(--color-primary);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageheader__top {
+    display: flex;
+}
+
 .pageheader__logo img {
     max-width: 150px;
+}
+
+.pageheader__contact {
+    margin-left: auto;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageheader__nav {
+    display: flex;
+    flex-direction: column;
 }
 
 .pageheader__navitem, .pageheader__contactphone, .pageheader__contactemail {
@@ -87,49 +110,60 @@ main {
     padding-bottom: 10px;
 }
 
+.pagefooter__address address {
+    text-align: center;
+}
+
 .pagefooter__spacer {
     flex: 1;
 }
 
-/* TODO: mobile-first header aanpassen
-   - Is nu desktop-first (week 3 dag 4)
-   - Nav stacked op mobiel
-   - Contact onder nav
-   - Flex-row alleen op desktop via media query
-*/
-
-.pageheader {
-    background-color: var(--color-primary);
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-}
-
-.pageheader__contact {
-    margin-left: auto;
-    display: flex;
-    flex-direction: column;
-    padding-right: 15px;
-}
-
 /* ------------------------------------INDEX.HTML------------------------------------ */
+
 .hero {
     position: relative;
 }
 
 .hero__text {
-    position: absolute;
     top: 0px;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    inset: 0;
+}
+
+.hero__text a {
+    text-decoration: none;
 }
 
 .hero__image {
     width: 100%;
-    display: block;
+}
+
+.hero__cta {
+    color: var(--color-text-light);
+    border: var(--color-cta);
+    border-style: solid;
+    background-color: var(--color-cta);
+    border-radius: 5px;
+    padding: 5px;   
+    cursor: pointer;
+    width: fit-content;
+    margin-top: auto;
 }
 
 .introductie {
     background-color: var(--color-primary);
+}
+
+.introductie__voorstellen p {
+    padding-left: 10px;
+}
+
+.introductie__voorstellen {
+    display: flex;
+    flex-direction: row;
 }
 
 .values {
