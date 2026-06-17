@@ -121,24 +121,23 @@ main {
 /* ------------------------------------INDEX.HTML------------------------------------ */
 
 .hero {
-    position: relative;
-}
-
-.hero__text {
-    top: 0px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    inset: 0;
-}
-
-.hero__text a {
-    text-decoration: none;
+    display: grid;
 }
 
 .hero__image {
+    grid-area: 1 / 1;
     width: 100%;
+    height: 100%;
+    min-height: clamp(300px, 50vw, 700px);
+    object-fit: cover;
+}
+
+.hero__text {
+    grid-area: 1 / 1;
+    padding: clamp(15px, 3vw, 40px);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(16px, 4vw, 48px);
 }
 
 .hero__cta {
@@ -147,10 +146,11 @@ main {
     border-style: solid;
     background-color: var(--color-cta);
     border-radius: 5px;
-    padding: 5px;   
+    padding: clamp(5px, 1vw, 14px) clamp(10px, 2vw, 24px);
     cursor: pointer;
     width: fit-content;
     margin-top: auto;
+    text-decoration: none;
 }
 
 .introductie {
