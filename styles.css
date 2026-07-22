@@ -193,10 +193,26 @@ main {
     background-color: var(--color-primary);
 }
 
+.projects {
+    background-color: var(--color-primary);
+}
+
+.projects__gallery {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
 .projects__img {
-    width: auto;
+    flex: 0 0 auto;
+    width: 260px;
     height: 200px;
+    object-fit: cover;
     border-radius: 15px;
+    scroll-snap-align: start;
 }
 
 .werkwijze {
