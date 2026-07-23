@@ -87,6 +87,11 @@ main {
 }
 
 .pageheader__nav {
+    display: none;
+    flex-direction: column;
+}
+
+.pageheader__nav--open {
     display: flex;
     flex-direction: column;
 }
@@ -95,6 +100,20 @@ main {
     text-decoration: none;
     color: var(--color-text-dark);
     padding: 5px;
+}
+
+.hamburger {
+    background-color: var(--color-primary);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hamburger__span {
+    background-color: var(--color-text-base);
+    width: 20px;
+    height: 2px;
 }
 
 .pagefooter {
