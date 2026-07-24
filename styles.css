@@ -260,16 +260,26 @@ main {
 
 .reviews {
     background-color: var(--color-primary);
+    width: 100%;
 }
 
-.reviews div {
+.reviews__cards {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .reviews__card {
-    width: 75%;
+    width: 100%;
     background-color: var(--color-background);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 85%;
 }
 
 /* ------------------------------------FAQ.HTML------------------------------------ */
