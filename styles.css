@@ -69,6 +69,7 @@ main {
     padding-top: 10px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .pageheader__top {
@@ -83,21 +84,27 @@ main {
     display: flex;
     flex-direction: column;
     align-items: end;
-    gap: 15px;
+    gap: 20px;
     margin-left: auto;
     padding-right: 10px;
 }
 
 .pageheader__nav {
     display: none;
-    flex-direction: column;
-    align-items: end;
-    padding-right: 10px;
+    /* flex-direction: column; */
 }
 
 .pageheader__nav--open {
     display: flex;
     flex-direction: column;
+    align-items: end;
+    padding-right: 10px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--color-primary);    
+    z-index: 10;
+    width: 125px;
 }
 
 .pageheader__navitem, .pageheader__contactphone, .pageheader__contactemail {
