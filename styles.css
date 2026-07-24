@@ -269,6 +269,7 @@ main {
 
 .reviews__card {
     width: 75%;
+    background-color: var(--color-background);
 }
 
 /* ------------------------------------FAQ.HTML------------------------------------ */
