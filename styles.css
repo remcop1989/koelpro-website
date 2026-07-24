@@ -292,6 +292,10 @@ main {
     padding-bottom: 15px;
 }
 
+.faq__card {
+    width: 100%;
+}
+
 /* ------------------------------------CONTACT.HTML------------------------------------ */
 
 .contact__form {
