@@ -79,21 +79,20 @@ main {
     max-width: 150px;
 }
 
-.pageheader__contact {
-    margin-left: auto;
-    /* padding-right: 15px; */
-}
-
 .pageheader__leftpart {
     display: flex;
     flex-direction: column;
     align-items: end;
     gap: 10px;
+    margin-left: auto;
+    padding-right: 10px;
 }
 
 .pageheader__nav {
     display: none;
     flex-direction: column;
+    align-items: end;
+    padding-right: 10px;
 }
 
 .pageheader__nav--open {
