@@ -288,6 +288,13 @@ main {
     flex: 0 0 85%;
 }
 
+/* ------------------------------------over-ons.HTML------------------------------------ */
+.aboutus > img {
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 3px;
+}
+
 /* ------------------------------------diensten.HTML------------------------------------ */
 .producten > .card {
     margin-bottom: 10px;
