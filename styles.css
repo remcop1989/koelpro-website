@@ -231,10 +231,6 @@ main {
     background-color: var(--color-primary);
 }
 
-.projects {
-    background-color: var(--color-primary);
-}
-
 .projects__gallery {
     display: flex;
     gap: 15px;
