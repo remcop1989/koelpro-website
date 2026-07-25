@@ -1,3 +1,10 @@
+/*
+TO DO
+- Uitzoeken waarom [display: flex;] uit-commenteren het probleem oplost waarbij
+.values cards voorbij het blauw lopen (en dus pagina niet responsive is) op schermen kleiner 
+dan iphone 14 pro max
+*/
+
 /* ------------------------------------ROOT VARIABLES------------------------------------*/
 :root {
     /* colors */
