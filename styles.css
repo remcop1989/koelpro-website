@@ -5,6 +5,7 @@ TO DO
 dan iphone 14 pro max
 - Checken of aanpassing juist is: op iphone X en andere kleine schermen stond header contact info verder naar links.
 Responsive gemaakt door pageheader__contact ook flex te maken direction column
+- uitleg over ::scroll-marker .reviews__cards::scroll-marker en ::scroll-marker-group
 */
 
 /* ------------------------------------ROOT VARIABLES------------------------------------*/
@@ -255,8 +256,18 @@ main {
     gap: 15px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     margin-top: 10px;
+    scrollbar-width: none;
+    scroll-marker-group: after;
+}
+
+.projects__img::scroll-marker {
+    content: " ";
+    border: 1px solid var(--color-cta);
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
 }
 
 .projects__img {
@@ -299,6 +310,9 @@ main {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    scrollbar-width: none;
+    padding-bottom: 0px;
+    scroll-marker-group: after;
 }
 
 .reviews__card {
@@ -309,6 +323,25 @@ main {
     flex-direction: column;
     justify-content: center;
     flex: 0 0 85%;
+}
+
+.reviews__card::scroll-marker {
+    content: " ";
+    border: 1px solid var(--color-cta);
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+}
+
+::scroll-marker-group {
+    display: flex;
+    gap: 0.2em;
+    justify-content: center;
+    margin-top: 5px;    
+}
+
+::scroll-marker:target-current {
+  background: var(--color-cta);
 }
 
 /* ------------------------------------over-ons.HTML------------------------------------ */
