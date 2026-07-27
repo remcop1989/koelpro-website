@@ -7,6 +7,9 @@ dan iphone 14 pro max
 Responsive gemaakt door pageheader__contact ook flex te maken direction column
 - uitleg over ::scroll-marker .reviews__cards::scroll-marker en ::scroll-marker-group
 - scroll-behavior: smooth; op html juist in css?
+- geen scroll-markers meer in grotere afmetingen schermen?
+- media-queries gebruiken om voor grotere schermen vanaf X-pixels alles goed te zetten of moet hele pagina gewoon 
+responsive zijn voor alle schermafmetingen zonder media queries? Zie reactie van "shgysk8zer0" op :https://www.reddit.com/r/webdev/comments/1g2dftz/at_what_width_do_you_switch_to_mobile/?tl=nl
 */
 
 /* ------------------------------------ROOT VARIABLES------------------------------------*/
