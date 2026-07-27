@@ -134,7 +134,7 @@ main {
     right: 0;
     background-color: var(--color-primary);    
     z-index: 10;
-    width: 125px;
+    width: 100px;
 }
 
 .pageheader__navitem {
