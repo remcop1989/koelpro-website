@@ -3,6 +3,8 @@ TO DO
 - Uitzoeken waarom [display: flex;] uit-commenteren het probleem oplost waarbij
 .values cards voorbij het blauw lopen (en dus pagina niet responsive is) op schermen kleiner 
 dan iphone 14 pro max
+- Checken of aanpassing juist is: op iphone X en andere kleine schermen stond header contact info verder naar links.
+Responsive gemaakt door pageheader__contact ook flex te maken direction column
 */
 
 /* ------------------------------------ROOT VARIABLES------------------------------------*/
