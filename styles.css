@@ -6,6 +6,7 @@ dan iphone 14 pro max
 - Checken of aanpassing juist is: op iphone X en andere kleine schermen stond header contact info verder naar links.
 Responsive gemaakt door pageheader__contact ook flex te maken direction column
 - uitleg over ::scroll-marker .reviews__cards::scroll-marker en ::scroll-marker-group
+- scroll-behavior: smooth; op html juist in css?
 */
 
 /* ------------------------------------ROOT VARIABLES------------------------------------*/
@@ -33,6 +34,7 @@ Responsive gemaakt door pageheader__contact ook flex te maken direction column
 html, body {
     height: 100%; /* essentieel voor sticky footer */
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
