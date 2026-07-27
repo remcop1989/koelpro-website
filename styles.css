@@ -73,6 +73,19 @@ main {
     flex: 1;
 }
 
+.cta__button {
+    color: var(--color-text-light);
+    border: var(--color-cta);
+    border-style: solid;
+    background-color: var(--color-cta);
+    border-radius: 5px;
+    padding: clamp(5px, 1vw, 14px) clamp(10px, 2vw, 24px);
+    cursor: pointer;
+    width: fit-content;
+    margin-top: auto;
+    text-decoration: none;
+}
+
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
 .pageheader {
     background-color: var(--color-primary);
@@ -187,19 +200,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: clamp(16px, 4vw, 48px);
-}
-
-.hero__cta {
-    color: var(--color-text-light);
-    border: var(--color-cta);
-    border-style: solid;
-    background-color: var(--color-cta);
-    border-radius: 5px;
-    padding: clamp(5px, 1vw, 14px) clamp(10px, 2vw, 24px);
-    cursor: pointer;
-    width: fit-content;
-    margin-top: auto;
-    text-decoration: none;
 }
 
 .introductie {
