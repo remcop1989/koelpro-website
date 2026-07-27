@@ -203,15 +203,15 @@ main {
 
 .introductie {
     background-color: var(--color-primary);
-}
-
-.introductie__voorstellen p {
-    padding-left: 10px;
-}
-
-.introductie__voorstellen {
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.introductie img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 0px;
 }
 
 .values {
