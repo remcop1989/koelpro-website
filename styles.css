@@ -376,6 +376,15 @@ main {
 .contact__form {
     padding-top: 15px;
 }
+
+.contactformulier {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 300px; */
+}
+
 #contact form {
     display: grid;
     grid-template-columns: auto 1fr; /* kolom 1: zo breed als het langste label, kolom 2: rest van de ruimte */
@@ -397,7 +406,7 @@ main {
 
 #contact input,
 #contact textarea {
-    width: 100%;
+    /* width: 100vw; */
     box-sizing: border-box;
 }
 
