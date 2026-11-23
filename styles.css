@@ -23,8 +23,8 @@
 }
 
 html, body {
-    height: 100%; /* essentieel voor sticky footer */
-    margin: 0;
+    /*height: 100%; essentieel voor sticky footer
+    margin: 0;*/
     scroll-behavior: smooth;
 }
 
@@ -35,7 +35,7 @@ body {
     margin: 0px;
     background-color: var(--color-background);
     color: var(--color-text-base);
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -85,9 +85,10 @@ main {
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    position: fixed;
-    width: 100%;
     /* border-bottom: 2px solid var(--color-primary-blue2); */
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .pageheader__top {
@@ -125,13 +126,13 @@ main {
 
 .pageheader__navitem {
     text-decoration: none;
-    color: var(--color-text-dark);
+    color: var(--color-text-base);
     padding: 5px;
 }
 
 .pageheader__contactphone, .pageheader__contactemail {
     text-decoration: none;
-    color: var(--color-text-dark);
+    color: var(--color-text-base);
 }
 
 .pagefooter {
