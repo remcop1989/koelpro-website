@@ -128,10 +128,6 @@ main {
     margin-right: auto;
 }
 
-.pageheader__text {
-    color: white;
-}
-
 .pageheader__navitem {
     text-decoration: none;
     color: var(--color-text-base);
@@ -145,7 +141,7 @@ main {
 
 .pageheader__contactphone, .pageheader__contactemail {
     text-decoration: none;
-    color: var(--color-text-base);
+    color: var(--color-text-light);
 }
 
 .pagefooter {
