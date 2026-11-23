@@ -355,6 +355,10 @@ main {
     scroll-marker-group: after;
 }
 
+.reviews__cards::-webkit-scrollbar {
+    display: none;
+}
+
 .reviews__card {
     background-color: var(--color-background);
     scroll-snap-align: center;
