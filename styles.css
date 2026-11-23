@@ -283,6 +283,7 @@ main {
     /* background-color: var(--color-primary-blue); */
     background-color: var(--color-primary-white);
     /* width: 100vw; */
+    margin: 15px;
 }
 
 .reviews__cards {
@@ -296,7 +297,7 @@ main {
     padding-block: 10px;         /* voorkomt afgeknipte box-shadow */
     /* verwijder max-width en margin-inline uit mijn vorige voorstel */
     scrollbar-width: none;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     scroll-marker-group: after;
 }
 
