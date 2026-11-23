@@ -346,13 +346,15 @@ main {
     /* width: 100vw; */
     display: flex;
     flex-direction: row;
-    --card-width: min(85%, 400px);
-    gap: 0;                      /* was 15px */
+    --card-width: min(90%, 500px);
+    gap: 50px;                      
     padding-block: 10px;         /* voorkomt afgeknipte box-shadow */
     /* verwijder max-width en margin-inline uit mijn vorige voorstel */
     scrollbar-width: none;
     padding-bottom: 20px;
     scroll-marker-group: after;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .reviews__cards::-webkit-scrollbar {
@@ -366,14 +368,18 @@ main {
     flex-direction: column;
     justify-content: center;
     flex: 0 0 var(--card-width);
-    margin-inline: calc((100% - var(--card-width)) / 2);
+    /* margin-inline: calc((100% - var(--card-width)) / 2); */
     padding: 0 50px 0 50px;
     height: 200px;
 }
 
+.reviews__card i {
+    margin-top: 5px;
+}
+
 .reviews__cards::after {
     content: "";
-    flex: 0 0 calc((100% - var(--card-width)) / 2);
+    /* flex: 0 0 calc((100% - var(--card-width)) / 2); */
 }
 
 .reviews__card::scroll-marker {
