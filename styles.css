@@ -2,6 +2,7 @@
 :root {
     /* colors */
     --color-primary-blue: #0E6298;
+    --color-primary-blue2: #00bbf2;
     --color-primary-white: #ffffff;
     --color-cta: #D41918;
 
@@ -80,7 +81,6 @@ main {
 
 /* ------------------------------------HEADER AND FOOTER------------------------------------ */
 .pageheader {
-    /* background-color: var(--color-primary-blue); */
     background-color: var(--color-primary-white);
     padding-top: 10px;
     display: flex;
@@ -133,21 +133,27 @@ main {
 }
 
 .pagefooter {
-    /* background-color: var(--color-primary-blue); */
     background-color: var(--color-primary-white);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagefooter__line {
+    border-top: 2px solid var(--color-primary-blue2);
+    width: 50%;
 }
 
 .pagefooter__links, .pagefooter__address {
     padding-bottom: 10px;
 }
 
-.pagefooter__address address {
+/* .pagefooter__address address {
     text-align: center;
-}
+} */
 
 .pagefooter__spacer {
     flex: 1;
