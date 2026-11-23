@@ -130,6 +130,11 @@ main {
     padding: 5px;
 }
 
+.pageheader__navitem:hover {
+    text-decoration: underline;
+    color: var(--color-cta);
+}
+
 .pageheader__contactphone, .pageheader__contactemail {
     text-decoration: none;
     color: var(--color-text-base);
