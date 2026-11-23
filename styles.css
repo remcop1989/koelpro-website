@@ -444,8 +444,9 @@ main {
     box-sizing: border-box;
 }
 
-#contact button[type="submit"] {
-    grid-column: 2; /*knop start in dezelfde kolom als de velden */
+#contact .contactform__home button[type="submit"] {
+    grid-column: 1 / -1; /*knop start in dezelfde kolom als de velden */
+    justify-self: center;
 }
 
 .contact__text {
