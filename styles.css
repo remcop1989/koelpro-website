@@ -45,7 +45,7 @@ h1, h2, h3, h4, p {
 }
 
 .section-padding {
-    padding: 15px 15px 25px 15px;
+    padding: 55px 15px 25px 15px;
 }
 
 .sectiontitle-padding {
@@ -189,13 +189,22 @@ main {
     background-color: var(--color-primary-white);
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
+    /* flex-direction: column; */
+}
+
+.introductie__voorstellen {
+    display: flex;
+    align-items: center;
 }
 
 .introductie img {
     float: left;
-    padding-right: 15px;
-    padding-bottom: 0px;
+    margin-right: 15px;
+    border-radius: 30px;
+}
+
+.introductie__tekst {
+    width: 50vw;
 }
 
 .values {
