@@ -404,7 +404,7 @@ main {
 }
 
 #contact button[type="submit"] {
-    grid-column: 2; /* knop start in dezelfde kolom als de velden */
+    grid-column: 2; /*knop start in dezelfde kolom als de velden */
 }
 
 .contact__text {
